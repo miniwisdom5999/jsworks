@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반복문 - for</title>
+</head>
+<body>
+    <h3>반복문 - for</h3>
+
+    <script>
+        //1부터 10까지의 곱을 계산하기(팩토리알[계승])
+        var num = prompt("숫자를 입력하세요", "1");
+        var facto = 1;
+        var result = ""; //문자를 초기화 (결과를 문자로 인식해서!!)
+
+        for(var i = 1; i<= num; i++){
+            facto *= i;
+
+        }
+        //결과
+        document.write(num + "! = " + facto);
+
+        document.write(result);
+    </script>
+</body>
+</html>
