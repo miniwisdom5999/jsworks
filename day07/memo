@@ -1,0 +1,109 @@
+&&
+||
+
+==
+===
+
+논리부정
+!(3>2)=f
+
+
+
+*프로그래밍 언어 교재
+
+19p 반복문
+if랑같이 활용
+
+22p (3)
+연산자의 우선순위에 따라 연산수식이 완성
+
+27p 오늘 배울 것!!
+객체
+
+
+
+교재 523p
+var 는 변수 이름 중복 허용해서 중복된지 모르고 오류도 잘 나기때문에
+let 또는 const 사용하기 (얘들은 이름 중복 불가)
+
+
+*버튼 보이기 숨기기
+      none    block
+
+      
+
+
+스타일에서
+글이 너무 빽빽해 보인다면 line-height: 1.5em;
+
+
+
+https://developer.mozilla.org/ko/
+MDN 모질라   (비주얼스튜디오에서 도움말 누르면 나오는 사이트)
+
+
+
+
+about:blank 하고 아무것도 안나오는 웹에서 Console 연습하기~~
+
+math.html에서 비슷한거 연습했음!!
+
+Math.PI
+3.141592653589793
+typeof(Math)
+'object'
+typeof(true)
+'boolean'
+var redius = 4;
+undefined
+Math.PI * redius * redius
+50.26548245743669
+
+Math.floor(25.43)
+25
+Math.round(12.78)
+13
+Math.round(12.18)
+12
+Math.abs(-7)
+7
+Math.abs(7)
+7
+Math.pow(2, 4)
+16
+
+Math.random()
+0.6217011138325885
+Math.random()
+0.95248212558338
+Math.random()*10
+9.460553670115457
+Math.random()*10 + 1
+8.582832295368586
+var num = Math.random()*10 + 1
+undefined
+; 다 못씀...ㅠㅠ
+
+var dice = Math.floor(Math.random()*10 + 1)
+undefined
+dice
+5
+
+
+10
+12
+15
+5
+31
+18
+
+
+*실습문제
+배열에 저장해두고 무작위로 출력하는 프로그램
+goodword.html 에서 연습했음
+
+
+
+*if~else 이용할 때 () 쓴 다음
+내용이 한줄이면 {} 생략가능
+
